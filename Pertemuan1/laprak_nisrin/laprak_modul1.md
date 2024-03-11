@@ -225,7 +225,6 @@ int main() {
 ```
 #### Output:
 ![Unguided1](unguided1_modul1.png)
-
 Kode di atas digunakan untuk melakukan penghitungan luas bangun datar dengan mengimplementasikan tipe data primitif, 4 fungsi untuk menghitung, 1 prosedur untuk menampilkan pilihan menu, perulangan serta pengkondisian untuk menu tersebut. Pilihan menu yang tersedia, yaitu fungsi untuk menghitung luas persegi, persegi panjang, segitiga, dan lingkaran. Prosedur (showMenu156) sebagai wadah menampung tampilan menu kalkulator. Percabangan (switch case) sebagai kondisi pilihan yang dipilih oleh pengguna. Sedangkan perulangan (do-while) berfungsi agar program terus berjalan selama tidak sama dengan 5. Adapun, fungsi c-math pow memudahkan dalam proses menghitung kuadrat dari jari-jari lingkaran.
 
 Kesimpulan dari Tipe Data Primitif adalah tipe data dasar yang langsung didukung oleh banyak bahasa pemrograman, sudah ditentukan oleh sistem serta memiliki ukuran yang tetap dan nilai yang sederhana. Perbedaan antar bahasa pemorgraman terletak pada jumlah bit yang dialokasikan.
@@ -275,7 +274,6 @@ int main() {
 ```
 #### Output:
 ![Unguided2](unguided2_modul1.png)
-
 Kode di atas digunakan untuk mencetak hasil dari struct Mahasiswa156 dan class Novel156. Dalam pemrograman C++ struct dan class biasa digunakan untuk membuat ADT (tipe data abstrak). Struct sendiri dalam menyusun data memiliki akses public, struct Mahasiswa156 memiliki atribut namamhs, tahunLahirmhs, dan jenisKelaminmhs. Sedangkan class dalam menyusun data memiliki akses private, class Novel156 memili atribut judulNovel, penulisNovel, dan tahunTerbit.
 
 Perbedaan antara keduanya antara lain:
@@ -320,7 +318,6 @@ int main() {
 ```
 #### Output:
 ![Unguided3](unguided3_modul1.png)
-
 Kode di atas digunakan untuk menampilkan elemen yang ada di dalam map. Map adalah sebuah struktur data dalam C++ yang digunakan untuk menyimpan dan mengorganisasi data dalam bentuk key-value. Fungsi emplace tersebut untuk menambahkan beberapa elemen ke dalam map. Output atau hasil yang ditampilkan berupa daftar Novel karya Tsana Rintik Sedu. Daftar novel tersebut ditampilkan berdasarkan nomor urutnya menggunakan map dengan key int dan value string.
 
 Perbedaan antara Map dengan Array antara lain:

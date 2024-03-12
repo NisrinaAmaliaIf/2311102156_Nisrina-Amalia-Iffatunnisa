@@ -145,6 +145,7 @@ Kode di atas digunakan untuk mencetak nilai dalam array. Array tersebut memiliki
 ### 1. Buatlah program menggunakan tipe data primitif minimal dua fungsi dan bebas. Menampilkan program, jelaskan program tersebut dan ambil kesimpulan dari materi tipe data primitif!
 
 ```C++
+//2311102156 Nisrina Amalia Iffatunnisa
 #include <iostream>
 #include <cmath> // harus, karena menggunakan fungsi M_PI (pi) luas lingkaran
 using namespace std;
@@ -227,10 +228,14 @@ int main() {
 ![Unguided1](unguided1_modul1.png)
 Kode di atas digunakan untuk melakukan penghitungan luas bangun datar dengan mengimplementasikan tipe data primitif, 4 fungsi untuk menghitung, 1 prosedur untuk menampilkan pilihan menu, perulangan serta pengkondisian untuk menu tersebut. Pilihan menu yang tersedia, yaitu fungsi untuk menghitung luas persegi, persegi panjang, segitiga, dan lingkaran. Prosedur (showMenu156) sebagai wadah menampung tampilan menu kalkulator. Percabangan (switch case) sebagai kondisi pilihan yang dipilih oleh pengguna. Sedangkan perulangan (do-while) berfungsi agar program terus berjalan selama tidak sama dengan 5. Adapun, fungsi c-math pow memudahkan dalam proses menghitung kuadrat dari jari-jari lingkaran.
 
+#### Full Code Screenshoot:
+![CodeUnguided1](code_unguided1.png)
+
 Kesimpulan dari Tipe Data Primitif adalah tipe data dasar yang langsung didukung oleh banyak bahasa pemrograman, sudah ditentukan oleh sistem serta memiliki ukuran yang tetap dan nilai yang sederhana. Perbedaan antar bahasa pemorgraman terletak pada jumlah bit yang dialokasikan.
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!
 
 ```C++
+//2311102156 Nisrina Amalia Iffatunnisa
 #include <iostream>
 #include <string>
 using namespace std;
@@ -287,9 +292,13 @@ Perbedaan antara keduanya antara lain:
     <p>b. Class pada tipe data abstrak mendukung inheritance (class anak atau turunan dapat mewarisi sifat dan perilaku classinduk), mendukung polymorphism (memanipulasi objek dari kelas yang berbeda), dan mendukung encapsulation (pembungkusan/perilaku terkait dikemas bersama)</p>
     <p>c. Mampu memberikan fleksibilitas, modularitas, dan struktur yang baik dalam sebuah program.</p>
 
+#### Full Code Screenshoot:
+![CodeUnguided2](code_unguided2.png)
+
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
 
 ```C++
+//2311102156 Nisrina Amalia Iffatunnisa
 #include <iostream>
 #include <map> //agar bisa menjalankan fungsi map
 
@@ -331,6 +340,9 @@ Perbedaan antara Map dengan Array antara lain:
 <p>a. Memiliki satu nilai yang unik.</p>
 <p>b. Map memiliki ukuran yang berubah-ubah dan dapat ditambah atau dihapus elemennya.</p>
 <p>c. Map hanya dapat ditentukan dengan tipe data yang sama untuk setiap elemen </p>
+
+#### Full Code Screenshoot:
+![CodeUnguided3](code_unguided3.png)
 
 ## Kesimpulan
 Dalam praktikum mata kuliah Struktur Data dan Algoritma Modul 1 Tipe Data, telah mempelajari tentang tipe primitif tipe data dasar yang digunakan dalam C++, seperti int, char, float, double. Kemudian tentang tipe data abstrak class dan struct untuk yang lebih kompleks dan memiliki fungsionalitas lebih banyak. Serta tipe data koleksi untuk memanipulasi, menyimpan, dan mengelola data dalam jumlah besar serta yang berhubungan dengan satu sama lain.

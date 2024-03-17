@@ -315,7 +315,7 @@ Kode di atas digunakan untuk menampilkan nilai maksimum, minimum, dan rata-rata 
 Array merupakan kumpulan dari nilai-nilai data yang bertipe sama dalam urutan tertentu yang menggunakan nama yang sama. Letak atau posisi dari elemen array ditunjukkan oleh suatu index. Dilihat dari dimensinya array dapat dibagi menjadi: array satu dimensi, array dua dimensi, dan array multi-dimensi. Cara membedakan antara satu variabel dengan variabel lain didalam array dilihat dari subscript. Subcript adalah berupa bilangan di dalam kurung siku [ ]. Melalui subcript elemen array dapat diakses. Elemen array tidak lain adalah masing-masing variabel di dalam array. Pada array berdimensi satu digunakan pada kumpulan data bertipe sama yang menggunakan nama yang sama, misalnya array bernama buah = { manggis, mangga, kurma }. Array dimensi dua diimplementasikan pada pembuatan matrik. Array dimensi banyak dalam aplikasinya tidak terlalu sering dipakai. Namun demikian tidak berarti array dimensi banyak tidak dipelajari.[2].
 
 ## Referensi
-[1]Asisten Praktikum, " Modul 1 Array ", Learning Management System, 2024.
+[1]Asisten Praktikum, " Modul 2 Array ", Learning Management System, 2024.
 
 [2]Esabella, Shinta., Mifathul Haq. 2021. Dasar-Dasar Pemrograman. Sumbawa Besar : Olat Maras Publising (OMP) 
 

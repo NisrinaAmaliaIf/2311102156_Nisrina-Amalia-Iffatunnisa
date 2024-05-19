@@ -5,7 +5,7 @@ using namespace std;
 int main(){
   // Deklarasi array
   int n = 10;
-  int data[n] = {9,4,1,7,5,12,4,13,4,10};
+  int data[n] = { 9, 4, 1, 4, 7, 10, 5, 4, 12, 4};
   int cari156 = 4; // Angka yang dicari (4)
   int count156 = 0; // Penghitung angka 4
 
@@ -18,7 +18,7 @@ int main(){
 
   // Menampilkan hasil
   cout << "Program Sequential Search" <<endl;
-  cout << "data : {9,4,1,7,5,12,4,13,4,10} " <<endl;
+  cout << "data : { 9, 4, 1, 4, 7, 10, 5, 4, 12, 4} " <<endl;
   cout << "\nJumlah angka " << cari156 << " ada sebanyak : " << count156 << " buah" << endl;
 
   return 0;

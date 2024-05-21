@@ -38,7 +38,6 @@ void selection_sort156(string &dataArray)
         }
         if (min_index != i)
         {
-            // Menukar nilai dua karakter tanpa menggunakan std::swap
             char temp = dataArray[i];
             dataArray[i] = dataArray[min_index];
             dataArray[min_index] = temp;

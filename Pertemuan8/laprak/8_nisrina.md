@@ -5,22 +5,22 @@
 Pencarian merupakan proses yang sangat penting dalam pengolahan data. Proses pencarian dasar adalah menemukan nilai (data) tertentu didalam
 sekumpulan data yang bertipe sama. Searching (pencarian) pada struktur data mengacu pada proses algoritma dalam memeriksa, menemukan, mengambil posisi elemen tertentu (target) dari kumpulan elemen di sebuah data. Kumpulan elemen tersebut dapat berupa array, list, linked list, tree, dan lain sebagainya. Berdasarkan jenis operasinya, dua algoritma pencarian yang dibahas pada pertemuan 8 ini, yaitu: <br>
 
-    a. Sequential Search merupakan metode pencarian yang paling sederhana. Pencarian berurutan menggunakan prinsip sebagai berikut : data yang ada dibandingkan satu per satu secara berurutan dengan yang dicari sampai data tersebut ditemukan atau tidak ditemukan. Biasa dilakukan pada data yang tidak terurut. Pada dasarnya, pencarian ini hanya melakukan pengulangan dari 1 sampai dengan jumlah data. Pada setiap pengulangan, dibandingkan data ke-i dengan yang dicari. Apabila sama, berarti data telah ditemukan. Sebaliknya apabila sampai akhir pengulangan tidak ada data yang sama, berarti data tidak ada. Algoritma ini tidak efisien untuk data yang list/data yang besar. Langkah-langkah pencarian dengan sequential search sebagai berikut :
-        1.) Melakukan perbandingan beruntun pada kumpulan data dengan menggunakan keyword atau kata kunci yang akan dicari.
-        2.) Pencarian ini melakukan loopingatau pengulangan dari data pertama hingga jumlah data ke-n.
-        3.) Setiap perulangan dilakukan pencocokan data dengan kata kunci yang dicari.
-        4.) Apabila terdapat kecocokan data dengan kata kunci yang di cari maka data berhasil ditemukan dan pencarian di hentikan, sebaliknya apabila tidak ada kecocokan data hingga data terakhir maka pencarian dihentikan dan data tidak ditemukan.
+a. ```Sequential Search``` merupakan metode pencarian yang paling sederhana. Pencarian berurutan menggunakan prinsip sebagai berikut : data yang ada dibandingkan satu per satu secara berurutan dengan yang dicari sampai data tersebut ditemukan atau tidak ditemukan. Biasa dilakukan pada data yang tidak terurut. Pada dasarnya, pencarian ini hanya melakukan pengulangan dari 1 sampai dengan jumlah data. Pada setiap pengulangan, dibandingkan data ke-i dengan yang dicari. Apabila sama, berarti data telah ditemukan. Sebaliknya apabila sampai akhir pengulangan tidak ada data yang sama, berarti data tidak ada. Algoritma ini tidak efisien untuk data yang list/data yang besar. Langkah-langkah pencarian dengan sequential search sebagai berikut :
 
-    Salah satu teknik pencarian yang mendasar adalah Sequential Search, yaitu pencarian berdasarkan array yang ada dengan membandingkan input pada pencarian pertama dengan data yang ditemukan. Proses Algoritma Sequential Search :
-    
-    a.) S ← 0 
-    b.) Data Ditemukan ← False 
-    c.) Jika data S = Key maka ketemu ← True jika tidak S ← S+1 dan False 
-    d.) Jika Data Ditemukan maka S adalah index atau keyword yang dicari
+1.) Melakukan perbandingan beruntun pada kumpulan data dengan menggunakan keyword atau kata kunci yang akan dicari.<br>
+2.) Pencarian ini melakukan loopingatau pengulangan dari data pertama hingga jumlah data ke-n.<br>
+3.) Setiap perulangan dilakukan pencocokan data dengan kata kunci yang dicari.<br>
+4.) Apabila terdapat kecocokan data dengan kata kunci yang di cari maka data berhasil ditemukan dan pencarian di hentikan, sebaliknya apabila tidak ada kecocokan data hingga data terakhir maka pencarian dihentikan dan data tidak ditemukan.<br>
 
-    b. Binary Search harus diawali dengan mengurutkan (sorting) array terlebih dahulu sebelum melakukan proses pencarian. Jika data belum dalam keadaan urut, pencarian biner tidak dapat dilakukan. Dalam kehidupan sehari-hari, sebenarnya kita juga sering menggunakan pencarian biner. Misalnya saat ingin mencari suatu kata dalam sebuah kamus. Binary search dapat melakukan pencarian lebih cepat jika dibanding dengan sequential search, dimana proses pencarian data dalam binary search akan dimulai dari bagian tengah list. Jika item yang dicari berada di tengah pencarian maka pencarian akan berakhir, tetapi jika item tidak ditemukan di tengah, pencarian berikutnya dapat dilakukan di setengah bagian atas atau setengah bagian bawah, hal ini tergantung pada besar atau kecilnya data yang dicari. Langkah-langkah pencarian dengan binary search sebagai berikut :
-        1.) Mengurutkan  data  terlebih  dahulubisa  secara ascending (dari depan ke belakang) atau descending (dari belakang ke depan)
-        2.) Membagi dua array atau keseluruhan data. Apabila data yang dicari lebih kecil dari data yang terletak di tengah, maka pencarian data akan berlanjut ke sebelah kiri. Apabila data yang dicari lebih besar dari data terletak ditengah, maka  pencarian data akan berlanjut ke sebelah kanan  kemudian proses pencarian tersebut akan terus berulang sampai data yang dimaksud atau dicari dapat ditemukan.
+Salah satu teknik pencarian yang mendasar adalah Sequential Search, yaitu pencarian berdasarkan array yang ada dengan membandingkan input pada pencarian pertama dengan data yang ditemukan. Proses Algoritma Sequential Search : <br>
+a.) S ← 0 <br>
+b.) Data ditemukan ← false <br>
+c.) Jika data S = Key maka ketemu ← true jika tidak S ← S+1 dan false <br>
+d.) Jika data ditemukan maka S adalah index atau keyword yang dicari <br>
+
+b. ```Binary Search``` harus diawali dengan mengurutkan (sorting) array terlebih dahulu sebelum melakukan proses pencarian. Jika data belum dalam keadaan urut, pencarian biner tidak dapat dilakukan. Dalam kehidupan sehari-hari, sebenarnya kita juga sering menggunakan pencarian biner. Misalnya saat ingin mencari suatu kata dalam sebuah kamus. Binary search dapat melakukan pencarian lebih cepat jika dibanding dengan sequential search, dimana proses pencarian data dalam binary search akan dimulai dari bagian tengah list. Jika item yang dicari berada di tengah pencarian maka pencarian akan berakhir, tetapi jika item tidak ditemukan di tengah, pencarian berikutnya dapat dilakukan di setengah bagian atas atau setengah bagian bawah, hal ini tergantung pada besar atau kecilnya data yang dicari. Langkah-langkah pencarian dengan binary search sebagai berikut :
+1.) Mengurutkan data terlebih dahulu bisa secara ascending (dari depan ke belakang) atau descending (dari belakang ke depan)
+2.) Membagi dua array atau keseluruhan data. Apabila data yang dicari lebih kecil dari data yang terletak di tengah, maka pencarian data akan berlanjut ke sebelah kiri. Apabila data yang dicari lebih besar dari data terletak ditengah, maka  pencarian data akan berlanjut ke sebelah kanan  kemudian proses pencarian tersebut akan terus berulang sampai data yang dimaksud atau dicari dapat ditemukan.
 
 #### Gambar Konsep:
 ![Konsep](konsep_binarysearch.png)
